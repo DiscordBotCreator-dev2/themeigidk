@@ -60,7 +60,7 @@
 
     --discord-icon: none; /* Discord icon */
     --sam-icon: block;
-    --sam-icon-url: url('https://www.bing.com/images/blob?bcid=RAXbsGndqBQHXzfD6LQSffbbVmQR.....ys');
+    --sam-icon-url: url('https://lh3.googleusercontent.com/fife/ALs6j_EidP8ngy8wyTtBLW12rzH5Vlc4_rGVnsGUTnLW9l66J2uvMaMzsddqokyX12CpbN2DwWKzGziqPE61umvo8wgn8nxKNvGJvjbnt_3W5T1CoDJr4EvYUT5h8NETJAYZ4kexYU8XEuCPK4EaN60CRxveMNt9dYOJ-7V8yqGi1jVudyr7Eq-ilIIUKcdQIYwgsSsgWUFG0fVgw4p3vnET3lW0R0NYaMU5urBddDWMfg2ZGqNl06x0i1NHEcOgs9iYit1JJKqI5Ms-pzo8WtL6EMUpx60V_QF_x3ppoO3a0f3Cqd1fjdXyC7bG6mIsKyGpRAL-Vcwc-TKikVCgXwc4spiV7ud3wScQA60GNhbauGgGxOcRwbnXCeFhql_Z6G7x1GLTH8-0toJEKWjvByi1XiP77SMcwGZwWFdhc68zPJXEolTBTu4cMkHsC01Lr9Q1o4pQq3lg6GNTuyz2sBF7xKUrsY4R6I2hqigD-F2VMJlrQ6yz-_4rS7uANboJXIqX9TCYWLKoGOdikbVPy4L48y9Nn1v1yP_Tg4ndxe4EiZcaQoXzkN2rxXIfYPGHMREeQdDFqTphEAy-RYVXxO3iSz_Z_avk8MRRGXLO1dcU_3qgl4yIxkLG6iSyLtOGeyOP04YwaqOBNBohMldxFYOHF3M20dBTmAWnU7PUVH1yUP9-WlMuQ_uPf2FbbvlH1cylfq1ZxJbfazqFHfSpctxVd3A3sXzLuK6mZHcqCGoqZVd-1mq1egN0jcAj7bLSnQYFTDLIT0JChxaCf4QfC2nkF_WWSGCFfU9GZkKdFHs2Zokv543vFCsH0UCNEFpZalC0SzOCKsnQCPdxSdMnF4zHOCWggT_4NiBk-fHwfM36WJ6wUkC0wZ1VOyMQYsy81uJG3GJzXxLf7ozBXjaXA0Ik2Jx4bYUyz93aUJzxAHA9SG5ydcyITdYt7wmniSDdu-hPzPGw=w1912-h966');
     --sam-icon-size: auto;
 
     /* Filter uncolorable elements to fit theme */
