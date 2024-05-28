@@ -7,7 +7,7 @@
     --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     /* Corner Text */
-    --corner-text: 'sam is so cute';
+    --corner-text: '    sam is so cute';
 
     /* Online Status Indicators */
     --online-indicator: var(--accent-2);
