@@ -7,7 +7,7 @@
     --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     /* Corner Text */
-    --corner-text: '    sam is so cute';
+    --corner-text: 'sam is so cute';
 
     /* Online Status Indicators */
     --online-indicator: var(--accent-2);
@@ -61,7 +61,7 @@
     /* Direct Messages Moon Icon */
     --discord-icon: none; /* Discord icon */
     --sam-icon: block;
-    --sam-icon-url: url('https://cdn.discordapp.com/avatars/937810364630974465/8f27dfc65b5d2ea4722b55f3678fc7f0.webp?');
+    --sam-icon-url: url('https://cdn.discordapp.com/avatars/937810364630974465/8f27dfc65b5d2ea4722b55f3678fc7f0.png');
     --sam-icon-size: auto;
 
     /* Filter uncolorable elements to fit theme */
