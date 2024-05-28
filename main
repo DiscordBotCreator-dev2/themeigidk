@@ -61,7 +61,7 @@
     /* Direct Messages Moon Icon */
     --discord-icon: none; /* Discord icon */
     --sam-icon: block;
-    --sam-icon-url: url('https://cdn.discordapp.com/avatars/937810364630974465/8f27dfc65b5d2ea4722b55f3678fc7f0.png');
+    --sam-icon-url: url('https://www.bing.com/images/blob?bcid=RAXbsGndqBQHXzfD6LQSffbbVmQR.....ys');
     --sam-icon-size: auto;
 
     /* Filter uncolorable elements to fit theme */
