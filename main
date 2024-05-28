@@ -2,7 +2,7 @@
 
 :root {
     /* Fonts */
-    --font: 'Figtree', sans-serif;
+    --font: 'Arial', sans-serif;
     --font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
