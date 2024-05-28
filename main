@@ -1,75 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-	--font: 'Poetsen One';
-	--corner-text: 'sam is so cute';
+    /* Fonts */
+    --font: 'Figtree', sans-serif;
+    --font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+    /* Corner Text */
+    --corner-text: 'sam is so cute';
 
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+    /* Online Status Indicators */
+    --online-indicator: var(--accent-2);
+    --dnd-indicator: hsl(340, 60%, 60%);
+    --idle-indicator: hsl(50, 60%, 60%);
+    --streaming-indicator: hsl(260, 60%, 60%);
 
-	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    /* Accent Colors */
+    --accent-1: hsl(190, 70%, 60%);
+    --accent-2: hsl(190, 70%, 48%);
+    --accent-3: hsl(190, 70%, 42%);
+    --accent-4: hsl(190, 70%, 36%);
+    --accent-5: hsl(190, 70%, 30%);
+    --mention: hsla(190, 80%, 52%, 0.1);
+    --mention-hover: hsla(190, 80%, 52%, 0.05);
 
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+    /* Text Colors */
+    --text-0: #ffffff;
+    --text-1: var(--text-2);
+    --text-2: #99aabb;
+    --text-3: #b8c2cc;
+    --text-4: #a9b8c8;
+    --text-5: #7f8a98;
 
-	--spacing: 12px;
+    /* Background and Dark Colors */
+    --bg-1: #2b3249; /* Dark buttons when clicked */
+    --bg-2: #232a3e; /* Dark buttons */
+    --bg-3: #1b2135; /* Spacing, secondary elements */
+    --bg-4: #141924; /* Main background color */
+    --hover: rgba(255, 255, 255, 0.1); /* Channels and buttons when hovered */
+    --active: rgba(255, 255, 255, 0.2); /* Channels and buttons when clicked or selected */
+    --message-hover: rgba(0, 0, 0, 0.1); /* Messages when hovered */
 
-	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
-	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
-	--sam-spin-transition: 0.4s ease;
-	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+    /* Amount of Spacing and Padding */
+    --spacing: 12px;
 
-	--roundness-xl: 22px; /* roundness of big panel outer corners */
-	--roundness-l: 20px; /* popout panels */
-	--roundness-m: 16px; /* smaller panels, images, embeds */
-	--roundness-s: 12px; /* members, settings inputs */
-	--roundness-xs: 10px; /* channels, buttons */
-	--roundness-xxs: 8px; /* searchbar, small elements */
+    /* Animations */
+    --list-item-transition: 0.2s ease; /* Channels/members/settings hover transition */
+    --unread-bar-transition: 0.2s ease; /* Unread bar moving into view transition */
+    --sam-spin-transition: 0.4s ease;
+    --icon-spin-transition: 1s ease; /* Round icon button spin (settings, emoji, etc.) */
 
-	--discord-icon: none; /* discord icon */
-	--sam-icon: block;
-	--sam-icon-url: url('https://cdn.discordapp.com/avatars/937810364630974465/8f27dfc65b5d2ea4722b55f3678fc7f0.webp?size=1024&format=webp&width=0&height=256');
-	--sam-icon-size: auto;
+    /* Corner Roundness (Border-Radius) */
+    --roundness-xl: 22px; /* Roundness of big panel outer corners */
+    --roundness-l: 20px; /* Popout panels */
+    --roundness-m: 16px; /* Smaller panels, images, embeds */
+    --roundness-s: 12px; /* Members, settings inputs */
+    --roundness-xs: 10px; /* Channels, buttons */
+    --roundness-xxs: 8px; /* Searchbar, small elements */
 
-	/* filter uncolorable elements to fit theme */
-	/* (just set to none, they're too much work to configure) */
-	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
-	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
-	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+    /* Direct Messages Moon Icon */
+    --discord-icon: none; /* Discord icon */
+    --sam-icon: block;
+    --sam-icon-url: url('https://cdn.discordapp.com/avatars/937810364630974465/8f27dfc65b5d2ea4722b55f3678fc7f0.webp?');
+    --sam-icon-size: auto;
+
+    /* Filter uncolorable elements to fit theme */
+    /* (just set to none, they're too much work to configure) */
+    --login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+    --green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
+    --blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
 }
 
-/* change fonts (edit the variables above, not this part) */
-:root {
-	--font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	--font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-/* reduced motion */
+/* Reduced Motion */
 :root.reduce-motion {
-	--list-item-transition: none;
-	--unread-bar-transition: none;
-	--moon-spin-transition: none;
-	--icon-spin-transition: none;
+    --list-item-transition: none;
+    --unread-bar-transition: none;
+    --sam-spin-transition: none;
+    --icon-spin-transition: none;
 }
 
 /* modify colors */
